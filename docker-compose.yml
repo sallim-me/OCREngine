@@ -1,0 +1,14 @@
+# version: "3"
+
+services:
+
+  PaddleOCR:
+    build: . 
+    container_name: paddle_ocr_api # Custom container name
+    image: paddleocrfastapi:latest # Custom image name and tag from step 2
+    environment:
+      - TZ=Asia/Seoul
+      - OCR_LANGUAGE=en
+    ports:
+    - "8000:8000" # Custom service exposed port, 8000 is the default port for FastAPI. Only change the first 8000, and don't forget the quotes.
+    restart: unless-stopped

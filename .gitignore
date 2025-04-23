@@ -1,0 +1,84 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.eggs
+*.whl
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.db
+*.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+
+# FastAPI specific
+*.log
+*.pid
+*.seed
+*.cover
+*.coverage
+*.coveragerc
+*.pytest_cache/
+*.tox/
+*.env
+*.venv
+*.envrc
+*.mypy_cache/
+*.pytest_cache/
+*.hypothesis/
+
+# Docker specific
+docker-compose.override.yml
+*.env
+*.env.*
+*.dockerignore
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Test specific
+test.py
+
+# Other
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+*.swn~
+*.swp~
+*.tmp~
+*.temp~
+*.old~
+*.orig~
+*.rej~

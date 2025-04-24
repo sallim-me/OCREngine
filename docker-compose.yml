@@ -1,11 +1,10 @@
 # version: "3"
 
 services:
-
-  PaddleOCR:
+  OCREngine:
     build: . 
-    container_name: paddle_ocr_api # Custom container name
-    image: paddleocrfastapi:latest # Custom image name and tag from step 2
+    container_name: ocrengine # Custom container name
+    image: kimbank/ocrengine:latest # Custom image name and tag from step 2
     environment:
       - TZ=Asia/Seoul
       - OCR_LANGUAGE=en

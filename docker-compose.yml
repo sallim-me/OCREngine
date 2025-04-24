@@ -3,6 +3,7 @@
 services:
   OCREngine:
     build: . 
+    platform: linux/amd64
     container_name: ocrengine # Custom container name
     image: kimbank/ocrengine:latest # Custom image name and tag from step 2
     environment:
